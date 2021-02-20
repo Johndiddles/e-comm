@@ -8,6 +8,10 @@ a {
     color: black;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 @media only screen and (max-width: 900px) {
     body {
         padding: 10px 10px;

@@ -41,3 +41,15 @@
       color: red;
     }
   }
+
+  @media screen and (max-width: 900px) {
+    .checkout-page {
+      width: 70vw;
+    }
+  }
+
+  @media screen and (max-width: 440px) {
+    .checkout-page {
+      width: 85vw;
+    }
+  }

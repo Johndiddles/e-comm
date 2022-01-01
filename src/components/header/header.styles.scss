@@ -26,3 +26,22 @@
     }
   }
   
+  @media screen and (max-width: 720px) {
+    .header {
+      .options {
+        width: 70%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 440px) {
+    .header {
+      .options {
+        width: 75%;
+
+        .option {
+          padding: 10px 10px;
+        }
+      }
+    }
+  }
